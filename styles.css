@@ -158,8 +158,10 @@ input[type="checkbox"]{
 
 .footer{
     width: 100vw;
-    display: grid;
-    place-content: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 @media(max-width:640px){
