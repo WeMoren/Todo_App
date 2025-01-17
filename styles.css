@@ -156,6 +156,12 @@ input[type="checkbox"]{
     display: none;
 }
 
+.footer{
+    width: 100vw;
+    display: grid;
+    place-content: center;
+}
+
 @media(max-width:640px){
     body{
         font-size: 16px;
