@@ -176,6 +176,12 @@ input[type="checkbox"]{
         height: 100px;
         width: 100vw;
         margin-bottom: 32px;
+        margin-left: 20px;
+        margin-right: 20px;
+}
+
+.rights p{
+    font-size: 12px;
 }
 
 @media(max-width:640px){
@@ -205,6 +211,10 @@ input[type="checkbox"]{
         margin-top: 50px;
         font-size: 10vw;
     }
+
+    .rights p{
+        font-size: 12px;
+    }
 }
 
 @media(max-width:480px){
@@ -224,6 +234,9 @@ input[type="checkbox"]{
         justify-content:center;
         height: 100px;
         width: 100vw;
+        margin-left: 20px;
+        margin-right: 20px;
+
     }
 
     .rights p{
