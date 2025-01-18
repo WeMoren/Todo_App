@@ -163,6 +163,19 @@ input[type="checkbox"]{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 500px;
+    
+}
+
+
+    .rights{
+        display: flex;
+        align-items:center;
+        justify-content:center;
+        flex-direction: column;
+        height: 100px;
+        width: 100vw;
+        margin-bottom: 32px;
 }
 
 @media(max-width:640px){
@@ -203,5 +216,17 @@ input[type="checkbox"]{
 
     h1{
         font-size: 13vw;
+    }
+
+    .rights{
+        display: flex;
+        align-items:center;
+        justify-content:center;
+        height: 100px;
+        width: 100vw;
+    }
+
+    .rights p{
+        font-size: 12px;
     }
 }
