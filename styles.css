@@ -215,6 +215,18 @@ input[type="checkbox"]{
     .rights p{
         font-size: 12px;
     }
+
+    .rights{
+        display: flex;
+        align-items:center;
+        justify-content:center;
+        height: 100px;
+        width: 100vw;
+        margin-left: 20px;
+        margin-right: 20px;
+
+    }
+
 }
 
 @media(max-width:480px){
