@@ -24,8 +24,9 @@ body{
     font-family: 'Segoe UI', 
     Tahoma, Geneva, Verdana, 
     sans-serif;
-}
+    overflow-x: hidden;
 
+}
 h1{
     margin-top: 40px;
     margin-bottom: 20px;
@@ -184,6 +185,25 @@ input[type="checkbox"]{
     font-size: 12px;
 }
 
+.social-links{
+    width: 100vw;
+    height: 50px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom: 15px;
+    gap: 10px;
+}
+
+.social-links .fa{
+    font-size: 25px;
+}
+.social-links .fa:hover{
+    transition: .3s ease-in-out;
+    transform: scaleX(.8);
+    color:var(--visual-color);
+}
+
 @media(max-width:640px){
     body{
         font-size: 16px;
@@ -210,6 +230,10 @@ input[type="checkbox"]{
     h1{
         margin-top: 50px;
         font-size: 10vw;
+    }
+
+    .social-links .fa{
+        font-size: 18px;
     }
 
     .rights p{
